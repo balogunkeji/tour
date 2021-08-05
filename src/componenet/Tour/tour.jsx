@@ -16,7 +16,6 @@ function Tour({ id, name, image, info, price, removeTour }) {
 const [showMore, setShowMore] = useState(false)
 	const handleToggle = () => setShowMore(!showMore);
 
-
 	return (
 		<Flex justify="center" align="center" m="1rem 0 5rem 0">
 				
