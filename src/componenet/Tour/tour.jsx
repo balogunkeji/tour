@@ -55,7 +55,7 @@ const [showMore, setShowMore] = useState(false)
 									color="blue"
 									marginTop="0"
 									d="block">
-									Show {showMore ? "Less" : "More"}
+									Read {showMore ? "Less" : "More"}
 								</Button>
 							</Box>
 							<Center>
